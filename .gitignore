@@ -37,3 +37,4 @@ TASK.md
 *.egg-info/
 venv/
 .venv/
+.env.example
