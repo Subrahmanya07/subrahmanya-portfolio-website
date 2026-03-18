@@ -1,0 +1,86 @@
+name: Static Responses
+description: All static/fallback responses used by IRA.
+
+greeting:
+  message: >
+    Hi there! I'm **IRA** — Subrahmanya's personal AI assistant.
+    I can tell you all about his skills, work experience, projects, education, and more.
+    What would you like to know?
+  patterns:
+    - hi
+    - hello
+    - hey
+    - hola
+    - howdy
+    - sup
+    - yo
+    - hii
+    - hiii
+    - good morning
+    - good afternoon
+    - good evening
+    - good night
+    - "what's up"
+    - whats up
+    - wassup
+    - namaste
+    - namaskar
+  short_greet_words:
+    - hi
+    - hello
+    - hey
+    - hola
+    - howdy
+    - sup
+    - yo
+    - hii
+    - hiii
+    - namaste
+
+off_topic:
+  message: >
+    I'm **IRA**, Subrahmanya's personal AI assistant.
+    I can only help with questions about him — his skills, experience, projects, education, or contact info.
+    Feel free to ask anything about Subrahmanya!
+
+fallback:
+  skills:
+    keywords: ["skill", "tech", "stack", "know", "language", "tool"]
+    response: >
+      Subrahmanya is skilled in **Python, Machine Learning, Deep Learning, RAG pipelines, Edge AI,
+      Computer Vision, NLP, LLMs (Gemma, Gemini), GCP, Docker, MongoDB, FastAPI, and Microservices**.
+      He's currently focused on optimizing on-device LLMs and building Agentic RAG systems.
+
+  experience:
+    keywords: ["experience", "work", "job", "role", "career"]
+    response: >
+      Subrahmanya is currently a **Junior Edge AI Engineer at Kruthak** (Jan 2026 - Present) in Bengaluru,
+      where he works on microservices, Agentic RAG, and Edge AI. Previously, he was a Software Engineering
+      Trainee at Kruthak, and interned at Rooman Technologies (IBM Watson AI), Elewyate (ML), and Q-Spiders (MongoDB).
+
+  projects:
+    keywords: ["project", "build", "built", "kalpa", "simplyreview", "lexiguid"]
+    response: >
+      Key projects include **KALPA** (AI for plantation management, 1L funded),
+      **SimplyReview** (AI literature review tool), **LexiGuid** (Educational AI with RAG),
+      and **Enhanced UX Using Indirect Cues**.
+
+  education:
+    keywords: ["education", "degree", "college", "university", "cgpa"]
+    response: >
+      Subrahmanya holds a **BE in Artificial Intelligence & Machine Learning** from
+      Vivekananda College of Engineering & Technology, Puttur (CGPA: 8.83/10, 2021-2025).
+
+  contact:
+    keywords: ["contact", "email", "reach", "hire", "connect"]
+    response: >
+      You can reach Subrahmanya at **subrahmanyashegde2413@gmail.com** or connect on
+      [LinkedIn](https://linkedin.com/in/subrahmanya-shivaram-hegde-3aab21255).
+      He's open to Edge AI, MLOps, and Agentic Systems roles.
+
+  certifications:
+    keywords: ["certif", "course", "ieee", "core club", "activity"]
+    response: >
+      Subrahmanya has certifications in **Watson AI (IBM)**, **Life Skills 2.0 (Wadhwani Foundation)**,
+      **Python Basics (Coursera)**, and **AI Youth Program (Intel)**. He's also an IEEE member and
+      CoRE Club member at VCET.

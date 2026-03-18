@@ -6,7 +6,7 @@ import ChatMessage from './ChatMessage';
 const INITIAL_MESSAGE = {
   role: 'assistant',
   content:
-    "Hi! I'm Subrahmanya's AI assistant, powered by his resume and project data. Ask me anything about his skills, experience, or projects!",
+    "Hi! I'm **IRA** — Subrahmanya's personal AI assistant. Ask me anything about his skills, experience, projects, or education!",
 };
 
 export default function AIAssistant() {
@@ -83,10 +83,10 @@ export default function AIAssistant() {
               <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
               <div>
                 <p className="text-sm font-display font-bold text-white light:text-slate-900">
-                  Neural Nexus AI
+                  IRA
                 </p>
                 <p className="text-xs text-slate-400 light:text-slate-700">
-                  RAG-powered assistant
+                  Subrahmanya's Personal Assistant
                 </p>
               </div>
             </div>

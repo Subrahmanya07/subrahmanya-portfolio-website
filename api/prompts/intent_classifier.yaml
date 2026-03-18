@@ -1,0 +1,21 @@
+name: Intent Classifier
+description: Classifies user messages into intent categories to route them correctly.
+
+prompt: |
+  Classify the following user message into exactly one category. Reply with ONLY the category name, nothing else.
+
+  Categories:
+  - greeting: Simple greetings like hi, hello, hey, how are you, etc.
+  - portfolio_related: Questions about a person's skills, experience, projects, education, certifications, contact info, resume, work history, achievements, or anything that could be answered from someone's professional profile.
+  - off_topic: Anything else — general knowledge, coding help, math, weather, news, other people, politics, etc.
+
+  User message: "{question}"
+
+  Category:
+
+categories:
+  - greeting
+  - portfolio_related
+  - off_topic
+
+default_category: portfolio_related

@@ -7,7 +7,6 @@ router = APIRouter()
 
 class ChatRequest(BaseModel):
     message: str
-    system_prompt: str | None = None
     mode: str | None = None
 
 
@@ -20,7 +19,6 @@ async def chat(request: ChatRequest):
     try:
         response = await get_rag_response(
             question=request.message,
-            system_prompt=request.system_prompt,
             mode=request.mode,
         )
         return ChatResponse(response=response)

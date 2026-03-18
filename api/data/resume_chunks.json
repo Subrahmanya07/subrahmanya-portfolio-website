@@ -1,6 +1,6 @@
 [
   {
-    "text": "Subrahmanya Shivaram Hegde is a Junior Edge AI Engineer at Kruthak, Bengaluru. He specializes in building Agentic RAG SaaS on GCP, working with Microservices and Computer Vision. He is passionate about deploying intelligent systems at the edge.",
+    "text": "Subrahmanya Shivaram Hegde is a Junior Edge AI Engineer at Kruthak, Bengaluru. He specializes in building Agentic RAG SaaS on GCP, working with Microservices and Computer Vision. He is passionate about deploying intelligent systems at the edge. He is based in Bengaluru, Karnataka, India.",
     "category": "about",
     "metadata": {
       "source": "resume",
@@ -9,7 +9,7 @@
     }
   },
   {
-    "text": "Junior Edge AI Engineer at Kruthak (January 2026 - Present, Bengaluru). Refactored a monolithic backend into scalable microservices (Auth, Vision, Analytics). Engineered dynamic RAG workflows using hybrid search (Vector DBs). Optimizing local LLMs (Gemma) for on-device inference for offline-first educational tools. Automated container deployments to GCP using GitHub Actions CI/CD.",
+    "text": "Junior Edge AI Engineer at Kruthak (January 2026 - Present, Bengaluru). Refactored a monolithic backend into scalable microservices (Auth, Vision, Analytics). Engineered dynamic RAG workflows using hybrid search (Vector DBs). Optimizing local LLMs (Gemma) for on-device inference for offline-first educational tools. Automated container deployments to GCP using GitHub Actions CI/CD. Tech stack: Python, GCP, Docker, RAG, Gemma, Microservices.",
     "category": "experience",
     "metadata": {
       "source": "resume",
@@ -18,7 +18,7 @@
     }
   },
   {
-    "text": "Software Engineering Trainee at Kruthak (July 2025 - December 2025, Bengaluru). Selected for intensive training on Educational AI and Cloud Architecture. Developed MVP of LexiGuid application with RAG pipeline research. Gained proficiency in GCP and containerization.",
+    "text": "Software Engineering Trainee at Kruthak (July 2025 - December 2025, Bengaluru). Selected for intensive training on Educational AI and Cloud Architecture. Developed MVP of LexiGuid application with RAG pipeline research. Gained proficiency in GCP and containerization. Tech stack: Python, GCP, Docker, RAG, Flask.",
     "category": "experience",
     "metadata": {
       "source": "resume",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "text": "AI/Machine Learning Engineer at Rooman Technologies (September 2024 - February 2025, Puttur). Completed 480-hour internship with hands-on AI customer insights. Completed 'Cognitive Customer Insights with Watson AI' under IBM mentorship. Completed Life Skills 2.0 program by Wadhwani Foundation.",
+    "text": "AI/Machine Learning Engineer at Rooman Technologies (September 2024 - February 2025, Puttur). Completed 480-hour internship with hands-on AI customer insights. Completed 'Cognitive Customer Insights with Watson AI' under IBM mentorship. Completed Life Skills 2.0 program by Wadhwani Foundation. Tech stack: Python, IBM Watson, Machine Learning, Data Analysis.",
     "category": "experience",
     "metadata": {
       "source": "resume",
@@ -36,7 +36,25 @@
     }
   },
   {
-    "text": "KALPA: Areca/Coconut Plantation Management System (December 2023 - Present). Developed an AI humanoid system for plantations, improving efficiency by 25%. Designed AI-powered solutions for dynamic agricultural conditions. Received seed funding of ₹1,00,000 under PROJECT CODE UNNATI.",
+    "text": "Machine Learning Intern at Elewyate (June 2024 - July 2024, Remote). Completed an internship focused on machine learning. Developed a classification project using well-known classification techniques. Tech stack: Python, Scikit-learn, Machine Learning.",
+    "category": "experience",
+    "metadata": {
+      "source": "resume",
+      "section": "work_exp",
+      "title": "Elewyate - ML Intern"
+    }
+  },
+  {
+    "text": "MongoDB Intern at Q-Spiders (October 2023 - November 2023, Puttur). Developed a full-stack 'Member Tracking System' using HTML, CSS, JavaScript, and MongoDB. Enhanced front-end design and integrated all components into a responsive, scalable application. Tech stack: MongoDB, HTML, CSS, JavaScript, Python Flask.",
+    "category": "experience",
+    "metadata": {
+      "source": "resume",
+      "section": "work_exp",
+      "title": "Q-Spiders - MongoDB Intern"
+    }
+  },
+  {
+    "text": "KALPA: Areca/Coconut Plantation Management System (December 2023 - Present). Developed an AI humanoid system for plantations, improving efficiency by 25%. Designed AI-powered solutions for dynamic agricultural conditions. Received seed funding of 1,00,000 INR under PROJECT CODE UNNATI. This is one of Subrahmanya's most notable achievements.",
     "category": "project",
     "metadata": {
       "source": "project_readme",
@@ -63,12 +81,30 @@
     }
   },
   {
-    "text": "Education: Bachelor of Engineering in Artificial Intelligence & Machine Learning from Vivekananda College of Engineering & Technology, Puttur (December 2021 - May 2025). CGPA: 8.83/10. Relevant coursework: Machine Learning, AI, Software Engineering, Operating Systems, DBMS.",
+    "text": "Enhanced UX Using Indirect Cues: A project focused on context-aware personalization to improve user experience through indirect behavioral cues and AI-driven adaptation.",
+    "category": "project",
+    "metadata": {
+      "source": "project_readme",
+      "section": "projects",
+      "title": "Enhanced UX Project"
+    }
+  },
+  {
+    "text": "Education: Bachelor of Engineering in Artificial Intelligence & Machine Learning from Vivekananda College of Engineering & Technology (VCET), Puttur (December 2021 - May 2025). CGPA: 8.83/10. Relevant coursework: Machine Learning, AI, Software Engineering, Operating Systems, DBMS.",
     "category": "education",
     "metadata": {
       "source": "resume",
       "section": "education",
       "title": "BE in AI & ML"
+    }
+  },
+  {
+    "text": "Pre-University Education: Senior Secondary (Class XII) in Science from Trisha Pre-University College, Udupi (June 2019 - June 2021). Percentage: 82.33%.",
+    "category": "education",
+    "metadata": {
+      "source": "resume",
+      "section": "education",
+      "title": "Pre-University Education"
     }
   },
   {
@@ -81,12 +117,30 @@
     }
   },
   {
-    "text": "Certifications: Python Basics (Coursera), Programming for Everybody, Machine Learning, AI Youth Program (Intel Digital Readiness), Life Skills 2.0 (Wadhwani Foundation), Empower Lives with Technology. Activities: IEEE Member, CoRE Club member at VCET.",
+    "text": "Certifications: Life Skills (Jeevan Kaushal) 2.0 by Wadhwani Foundation. Cognitive Customer Insights with Watson AI by IBM. Python Basics from Coursera. Programming for Everybody. Machine Learning certification. AI Youth Program by Intel Digital Readiness. Empower Lives with Technology.",
     "category": "about",
     "metadata": {
       "source": "resume",
       "section": "certifications",
-      "title": "Certifications & Activities"
+      "title": "Certifications"
+    }
+  },
+  {
+    "text": "Activities and Memberships: IEEE Member (December 2022 - April 2025) - Participated in the PRIMED Internship by IEEE Mangalore, gaining hands-on experience in industry practices. CoRE Club (Centre of Research Excellency) Member at VCET (December 2022 - April 2025) - Active member promoting student research, organized 'Unbounded' a week-long technical event.",
+    "category": "about",
+    "metadata": {
+      "source": "resume",
+      "section": "activities",
+      "title": "Activities & Memberships"
+    }
+  },
+  {
+    "text": "Contact Information: Email: subrahmanyashegde2413@gmail.com. GitHub: https://github.com/Subrahmanya07. LinkedIn: https://linkedin.com/in/subrahmanya-shivaram-hegde-3aab21255. Location: Bengaluru, Karnataka, India. Subrahmanya is open to opportunities in Edge AI, MLOps, and Agentic Systems roles.",
+    "category": "about",
+    "metadata": {
+      "source": "resume",
+      "section": "contact",
+      "title": "Contact Information"
     }
   }
 ]
