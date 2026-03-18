@@ -1,0 +1,92 @@
+[
+  {
+    "text": "Subrahmanya Shivaram Hegde is a Junior Edge AI Engineer at Kruthak, Bengaluru. He specializes in building Agentic RAG SaaS on GCP, working with Microservices and Computer Vision. He is passionate about deploying intelligent systems at the edge.",
+    "category": "about",
+    "metadata": {
+      "source": "resume",
+      "section": "summary",
+      "title": "Professional Summary"
+    }
+  },
+  {
+    "text": "Junior Edge AI Engineer at Kruthak (January 2026 - Present, Bengaluru). Refactored a monolithic backend into scalable microservices (Auth, Vision, Analytics). Engineered dynamic RAG workflows using hybrid search (Vector DBs). Optimizing local LLMs (Gemma) for on-device inference for offline-first educational tools. Automated container deployments to GCP using GitHub Actions CI/CD.",
+    "category": "experience",
+    "metadata": {
+      "source": "resume",
+      "section": "work_exp",
+      "title": "Kruthak - Junior Edge AI Engineer"
+    }
+  },
+  {
+    "text": "Software Engineering Trainee at Kruthak (July 2025 - December 2025, Bengaluru). Selected for intensive training on Educational AI and Cloud Architecture. Developed MVP of LexiGuid application with RAG pipeline research. Gained proficiency in GCP and containerization.",
+    "category": "experience",
+    "metadata": {
+      "source": "resume",
+      "section": "work_exp",
+      "title": "Kruthak - Software Engineering Trainee"
+    }
+  },
+  {
+    "text": "AI/Machine Learning Engineer at Rooman Technologies (September 2024 - February 2025, Puttur). Completed 480-hour internship with hands-on AI customer insights. Completed 'Cognitive Customer Insights with Watson AI' under IBM mentorship. Completed Life Skills 2.0 program by Wadhwani Foundation.",
+    "category": "experience",
+    "metadata": {
+      "source": "resume",
+      "section": "work_exp",
+      "title": "Rooman Technologies - AI/ML Engineer"
+    }
+  },
+  {
+    "text": "KALPA: Areca/Coconut Plantation Management System (December 2023 - Present). Developed an AI humanoid system for plantations, improving efficiency by 25%. Designed AI-powered solutions for dynamic agricultural conditions. Received seed funding of ₹1,00,000 under PROJECT CODE UNNATI.",
+    "category": "project",
+    "metadata": {
+      "source": "project_readme",
+      "section": "projects",
+      "title": "KALPA Project"
+    }
+  },
+  {
+    "text": "SimplyReview: Literature Review Made Easy (February 2025 - May 2025). Built an AI tool to simplify literature reviews by extracting key concepts and relationships. Features include document upload, semantic search, knowledge graphs, and query answering.",
+    "category": "project",
+    "metadata": {
+      "source": "project_readme",
+      "section": "projects",
+      "title": "SimplyReview Project"
+    }
+  },
+  {
+    "text": "LexiGuid: Educational AI Assistant (July 2025 - Present). MVP built during Software Engineering Trainee phase at Kruthak. Foundational research on RAG pipelines for student query resolution. Uses GCP, Vector databases, and LLMs.",
+    "category": "project",
+    "metadata": {
+      "source": "project_readme",
+      "section": "projects",
+      "title": "LexiGuid Project"
+    }
+  },
+  {
+    "text": "Education: Bachelor of Engineering in Artificial Intelligence & Machine Learning from Vivekananda College of Engineering & Technology, Puttur (December 2021 - May 2025). CGPA: 8.83/10. Relevant coursework: Machine Learning, AI, Software Engineering, Operating Systems, DBMS.",
+    "category": "education",
+    "metadata": {
+      "source": "resume",
+      "section": "education",
+      "title": "BE in AI & ML"
+    }
+  },
+  {
+    "text": "Technical Skills: Python, C, Java, Machine Learning, Deep Learning, Computer Vision, NLP, RAG Pipelines, Edge AI, LLMs (Gemma, Gemini), FastAPI, Flask, Microservices, MongoDB, MySQL, Vector Databases, Google Cloud Platform, Docker, GitHub Actions, CI/CD, HTML, CSS, JavaScript, Git.",
+    "category": "skill",
+    "metadata": {
+      "source": "resume",
+      "section": "skills",
+      "title": "Technical Skills"
+    }
+  },
+  {
+    "text": "Certifications: Python Basics (Coursera), Programming for Everybody, Machine Learning, AI Youth Program (Intel Digital Readiness), Life Skills 2.0 (Wadhwani Foundation), Empower Lives with Technology. Activities: IEEE Member, CoRE Club member at VCET.",
+    "category": "about",
+    "metadata": {
+      "source": "resume",
+      "section": "certifications",
+      "title": "Certifications & Activities"
+    }
+  }
+]

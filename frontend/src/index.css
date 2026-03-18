@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body antialiased;
+    cursor: none;
+    background-color: #0A0A0F;
+    color: #e2e8f0;
+  }
+
+  body.light {
+    background-color: #F8F9FF;
+    color: #1e293b;
+  }
+
+  ::selection {
+    background: rgba(99, 102, 241, 0.3);
+    color: #e2e8f0;
+  }
+
+  .light ::selection {
+    background: rgba(99, 102, 241, 0.2);
+    color: #1e293b;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0A0A0F;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #6366F1;
+    border-radius: 999px;
+  }
+
+  .light ::-webkit-scrollbar-track {
+    background: #F8F9FF;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply backdrop-blur-md bg-white/5 border border-white/10 rounded-card;
+  }
+
+  .light .glass-card {
+    @apply bg-white/60 border-gray-200/50;
+  }
+
+  .glow-border {
+    box-shadow: 0 0 15px rgba(34, 211, 238, 0.15),
+                inset 0 0 15px rgba(34, 211, 238, 0.05);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-indigo via-accent-cyan to-accent-purple;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-accent-indigo hover:bg-indigo-600 text-white font-medium rounded-pill
+           transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/25;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 border border-accent-cyan text-accent-cyan hover:bg-accent-cyan/10
+           font-medium rounded-pill transition-all duration-300;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20;
+  }
+
+  /* Terminal styling */
+  .terminal {
+    @apply font-mono text-sm bg-black/80 backdrop-blur-md border border-white/10 rounded-card p-4 overflow-hidden;
+  }
+
+  .light .terminal {
+    @apply bg-white border-gray-200;
+  }
+
+  .terminal-line {
+    @apply text-accent-cyan;
+  }
+
+  .terminal-prompt {
+    @apply text-accent-indigo;
+  }
+
+  .terminal-output {
+    @apply text-slate-300;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.4s ease-out forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
