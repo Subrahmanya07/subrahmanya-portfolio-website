@@ -1,8 +1,10 @@
+import logging
 from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel
 from api.services.mongodb_service import save_contact
 from api.services.email_service import send_notification
 
+logger = logging.getLogger(__name__)
 router = APIRouter()
 
 
@@ -25,8 +27,8 @@ async def submit_contact(request: ContactRequest):
 
         try:
             await send_notification(request.model_dump())
-        except Exception:
-            pass  # Don't fail if email fails
+        except Exception as e:
+            logger.error(f"Email notification failed for contact from {request.name}: {e}")
 
         return ContactResponse(success=True, message="Message received! I'll get back to you soon.")
     except Exception as e:

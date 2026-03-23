@@ -111,6 +111,7 @@ export const education = [
 ];
 
 export const certifications = [
+  { name: "AWS Cloud Practitioner Essentials — Amazon Web Services", link: "https://drive.google.com/file/d/1DFNGqaZl7bSu9OkLwtPzzVxIfVCbGEez/view?usp=sharing" },
   { name: "Life Skills (Jeevan Kaushal) 2.0 — Wadhwani Foundation", link: "https://web.certificate.wfglobal.org/en/certificate?certificateId=67580cbdd10997dbb9d38411" },
   { name: "Cognitive Customer Insights with Watson AI — IBM", link: "https://drive.google.com/file/d/1xMemDNp_57evm665CxieJdgtsKHRCOKz/view" },
 ];

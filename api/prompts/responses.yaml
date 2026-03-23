@@ -81,6 +81,6 @@ fallback:
   certifications:
     keywords: ["certif", "course", "ieee", "core club", "activity"]
     response: >
-      Subrahmanya has certifications in **Watson AI (IBM)**, **Life Skills 2.0 (Wadhwani Foundation)**,
-      **Python Basics (Coursera)**, and **AI Youth Program (Intel)**. He's also an IEEE member and
-      CoRE Club member at VCET.
+      Subrahmanya has certifications in **AWS Cloud Practitioner Essentials (AWS)**, **Watson AI (IBM)**,
+      **Life Skills 2.0 (Wadhwani Foundation)**, **Python Basics (Coursera)**, and **AI Youth Program (Intel)**.
+      He's also an IEEE member and CoRE Club member at VCET.

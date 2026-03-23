@@ -52,7 +52,7 @@ Projects:
 
 Skills: Python, C, Java, Machine Learning, Deep Learning, RAG Pipelines, Edge AI, Computer Vision, NLP, LLMs (Gemma, Gemini), FastAPI, Flask, Microservices, MongoDB, MySQL, Vector Databases, GCP, Docker, GitHub Actions, CI/CD, HTML, CSS, JavaScript, Git.
 
-Certifications: Life Skills 2.0 (Wadhwani Foundation), Cognitive Customer Insights with Watson AI (IBM), Python Basics (Coursera), AI Youth Program (Intel).
+Certifications: AWS Cloud Practitioner Essentials (Amazon Web Services), Life Skills 2.0 (Wadhwani Foundation), Cognitive Customer Insights with Watson AI (IBM), Python Basics (Coursera), AI Youth Program (Intel).
 
 Activities: IEEE Member (participated in PRIMED Internship by IEEE Mangalore), CoRE Club member at VCET (organized "Unbounded" technical event).
 
